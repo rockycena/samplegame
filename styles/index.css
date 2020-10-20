@@ -1,0 +1,41 @@
+
+.form-card{
+    background: #fff2;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 1rem;
+    width: 40vw;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: -5px -5px 10px #fff1, 
+    5px 5px 10px #0004;
+}
+
+.form-card [type="text"]{
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 2px 2px 10px #0002;
+}
+
+.form-card button{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background: #DB4437;
+    color: white;
+    height: 3rem;
+}
+
+.form-card button p{
+    padding-left: 1rem;
+}
