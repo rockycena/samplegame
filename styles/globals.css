@@ -36,9 +36,15 @@ h5{
 h6{
   font-size: 1rem;
 }
+
 .title{
   font-family: 'Ranchers', cursive;
   letter-spacing: .5rem;
+}
+
+.subtitle{
+  font-family: 'Ranchers', cursive;
+  letter-spacing: .3rem;
 }
 
 .centered{
