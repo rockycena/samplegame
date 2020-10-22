@@ -1,14 +1,15 @@
 
 .form-card{
-    background: #fff2;
+    background: #7246c59c;
     margin: auto;
-    margin-top: 10rem;
     padding: 1rem;
     width: 40vw;
     height: auto;
     border-radius: 1rem;
-    box-shadow: -2px -2px 10px #fff1, 
-    5px 5px 5px #0005;
+    box-shadow: -2px -2px 20px #ba95ff44, 
+    5px 5px 20px #0008;
+    position: absolute;
+    z-index: 2;
 }
 
 .form-card [type="text"]{

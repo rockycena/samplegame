@@ -1,8 +1,14 @@
 import Layout from '../components/layout';
+import Particles from 'react-particles-js';
+import config from '../particlesjs-config.json';
 
 const IndexPage = (props)=>{
   return (
     <Layout title="Dot Connect | Sign Up">
+      <Particles 
+        params={config} 
+        style={{position: "absolute", zIndex: "1"}}
+      /> 
       <div className="container">
         <div className="centered">
           <h1 className="title">Dot Connect</h1>
@@ -10,11 +16,13 @@ const IndexPage = (props)=>{
         <div className="centered">
           <h4>Sign Up / Sign In</h4>
         </div>
-        <div className="form-card">
-          <form>
-            <input type="text" placeholder="Type in your username"/>
-            <button><i class="fab fa-google"></i><p>Join in with google</p></button>
-          </form>
+        <div className="centered" style={{marginTop: "15rem"}}>
+          <div className="form-card">
+            <form>
+              <input type="text" placeholder="Type in your username"/>
+              <button><i className="fab fa-google"></i><p>Join in with google</p></button>
+            </form>
+          </div>
         </div>
       </div>
     </Layout>
