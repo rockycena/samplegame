@@ -20,7 +20,7 @@ const IndexPage = (props)=>{
           <div className="form-card">
             <form>
               <input type="text" placeholder="Type in your username"/>
-              <button><i class="fab fa-google"></i><p>Join in with google</p></button>
+              <button><i className="fab fa-google"></i><p>Join in with google</p></button>
             </form>
           </div>
         </div>
