@@ -1,0 +1,11 @@
+
+.home-card{
+    height: 30vw;
+    width: 30vw;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px black;
+    color: black;
+    font-size: 4rem;
+    font-weight: bolder;
+}
