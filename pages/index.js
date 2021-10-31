@@ -21,6 +21,7 @@ const IndexPage = (props)=>{
             <form>
               <input type="text" placeholder="Type in your username"/>
               <input type="password" placeholder="Type your password"/>
+              <span>OR</span>
               <button><i className="fab fa-google"></i><p>Join in with google</p></button>
             </form>
           </div>
