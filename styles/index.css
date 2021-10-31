@@ -8,8 +8,16 @@
     border-radius: 1rem;
     box-shadow: -2px -2px 3px #ba95ff3a, 
     5px 5px 10px rgba(0, 0, 0, 0.24);
+    min-width: 300px;
     position: absolute;
     z-index: 2;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .form-card [type="text"], .form-card [type="password"] {
@@ -25,11 +33,16 @@
     font-family: 'Merriweather', serif;
 }
 
+.form-card span {
+    text-align: center;
+    margin: auto;
+}
+
 .form-card button{
     height: 3rem;
     width: 100%;
     padding: .5rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-top: 1rem;
     display: flex;
     align-items: center;
